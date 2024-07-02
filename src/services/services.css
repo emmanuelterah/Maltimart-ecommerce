@@ -2,12 +2,11 @@
 
 
 .service__item {
-    padding: 20px;
+    padding: 30px;
     display: flex;
     align-items: center;
     column-gap: 0.5rem;
     border-radius: 5px;
-    height: 160px;
     cursor: pointer;
     margin-bottom: 1.2rem;
 }
@@ -31,4 +30,31 @@
     font-style: 0.9rem;
     margin-top: 5px;
     color: #222;
+}
+
+@media only screen and (max-width: 992px) {
+    .service__item span i {
+        font-size: 1.8rem;
+        padding: 5px;
+    }
+
+    .service__item h3 {
+        font-size: 1rem;
+    }
+
+    .service__item {
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .service__item {
+        margin-bottom: 1.5rem;
+    }
+
+    .service__item span i {
+        font-size: 1.5rem;
+        padding: 5px;
+    }
+
 }
