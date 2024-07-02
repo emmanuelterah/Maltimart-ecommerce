@@ -10,7 +10,7 @@ const Footer = () => {
     <footer className='footer'>
       <Container>
         <Row>
-          <Col lg="4">
+          <Col lg="4" className="mb-4" md="6">
             <div className="logo">
                 <div>
                   <h1 className='text-white'>Multimart</h1>
@@ -22,7 +22,7 @@ const Footer = () => {
             </p>
           </Col>
 
-          <Col lg="3">
+          <Col lg="3" md="3" className="mb-4">
             <div className="footer__quick-links">
               <h4 className="quick__links-title">
                 Top Categories
@@ -49,7 +49,7 @@ const Footer = () => {
             </div>
           </Col>
           
-          <Col lg="2">
+          <Col lg="2" md="3" className="mb-4">
             <div className="footer__quick-links">
                 <h4 className="quick__links-title">
                   Useful Links
@@ -75,7 +75,7 @@ const Footer = () => {
                 </ListGroup>
             </div>
           </Col>
-          <Col lg="3">
+          <Col lg="3" md="4">
             <div className="footer__quick-links">
               <h4 className="quick__links-title">
                 Contact
@@ -101,7 +101,7 @@ const Footer = () => {
             </div>
           </Col>
 
-          <Col lg="12">
+          <Col lg="12" className="mb-4">
             <p className="footer__copyright">Copyright {year} developed by Emmanuel Oire. All rights reserved. </p>
           </Col>
         </Row>
