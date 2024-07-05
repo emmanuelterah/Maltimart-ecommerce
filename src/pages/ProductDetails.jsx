@@ -120,7 +120,7 @@ const ProductDetails = () => {
                   <div className="review__wrapper">
                     <ul>
                       {
-                        reviews ?.map((item, index)=>(
+                        reviews?.map((item, index)=>(
                           <li key={index} className='mb-4'>
                             
                             <h6>John Doe</h6>
